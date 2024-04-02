@@ -1,4 +1,4 @@
 FROM  httpd:latest
-COPY ./photogenic /var/www/html/
+COPY ./photogenic/ /usr/local/apache2/htdocs/
 
 EXPOSE 80 22
